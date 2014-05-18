@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3873831927F8F100A8A134 /* HKRatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3873821927F8F100A8A134 /* HKRatingViewController.m */; };
+		0E3873861927F90B00A8A134 /* HKScoreBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3873851927F90B00A8A134 /* HKScoreBoardViewController.m */; };
+		0E3873891927F91F00A8A134 /* HKScoreboardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3873881927F91F00A8A134 /* HKScoreboardCollectionViewCell.m */; };
+		0E3873981927FC5000A8A134 /* HKCachedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3873971927FC5000A8A134 /* HKCachedUser.m */; };
+		0E38739B1927FC5100A8A134 /* HKCachedPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E38739A1927FC5100A8A134 /* HKCachedPhoto.m */; };
+		0E3873A51928123100A8A134 /* HKPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3873A41928123100A8A134 /* HKPhotoView.m */; };
+		0E3873A7192832E300A8A134 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3873A6192832E300A8A134 /* CoreData.framework */; };
+		0E3873AC19285B7900A8A134 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3873AB19285B7900A8A134 /* UIImage+ImageEffects.m */; };
+		0E9639F51927D34100DAA86D /* CoreComponents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0E9639F31927D34100DAA86D /* CoreComponents.xml */; };
+		0E9639F61927D34100DAA86D /* ViewControllers.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0E9639F41927D34100DAA86D /* ViewControllers.xml */; };
+		0E9639FD1927D45F00DAA86D /* HotOrNotModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E9639FB1927D45F00DAA86D /* HotOrNotModel.xcdatamodeld */; };
+		0E9639FF1927D60000DAA86D /* HKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9639FE1927D60000DAA86D /* HKConstants.m */; };
+		0E963A031927D85E00DAA86D /* HKInstagramDataSourceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E963A021927D85E00DAA86D /* HKInstagramDataSourceProvider.m */; };
+		0E963A071927D94700DAA86D /* HKInstagramPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E963A061927D94700DAA86D /* HKInstagramPhoto.m */; };
+		0E963A091927E27600DAA86D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E963A081927E27600DAA86D /* CoreLocation.framework */; };
+		0E963A0C1927E56000DAA86D /* HKInstagramUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E963A0B1927E56000DAA86D /* HKInstagramUser.m */; };
+		0E963A131927E69C00DAA86D /* HKCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E963A121927E69C00DAA86D /* HKCoreDataManager.m */; };
 		0E97D6291927CDDA00994B52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97D6281927CDDA00994B52 /* Foundation.framework */; };
 		0E97D62B1927CDDA00994B52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97D62A1927CDDA00994B52 /* CoreGraphics.framework */; };
 		0E97D62D1927CDDA00994B52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97D62C1927CDDA00994B52 /* UIKit.framework */; };
 		0E97D6331927CDDA00994B52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E97D6311927CDDA00994B52 /* InfoPlist.strings */; };
 		0E97D6351927CDDA00994B52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97D6341927CDDA00994B52 /* main.m */; };
 		0E97D6391927CDDA00994B52 /* HKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97D6381927CDDA00994B52 /* HKAppDelegate.m */; };
-		0E97D63C1927CDDA00994B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E97D63A1927CDDA00994B52 /* Main.storyboard */; };
 		0E97D63F1927CDDA00994B52 /* HKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97D63E1927CDDA00994B52 /* HKViewController.m */; };
 		0E97D6411927CDDA00994B52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E97D6401927CDDA00994B52 /* Images.xcassets */; };
 		0E97D6481927CDDA00994B52 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97D6471927CDDA00994B52 /* XCTest.framework */; };
@@ -21,6 +37,7 @@
 		0E97D64A1927CDDA00994B52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97D62C1927CDDA00994B52 /* UIKit.framework */; };
 		0E97D6521927CDDA00994B52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E97D6501927CDDA00994B52 /* InfoPlist.strings */; };
 		0E97D6541927CDDA00994B52 /* HotOrNotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97D6531927CDDA00994B52 /* HotOrNotTests.m */; };
+		2062F6329A044159BC8EE682 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69467C41BBFF460AA3D5E485 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E3873811927F8F100A8A134 /* HKRatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKRatingViewController.h; sourceTree = "<group>"; };
+		0E3873821927F8F100A8A134 /* HKRatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKRatingViewController.m; sourceTree = "<group>"; };
+		0E3873841927F90B00A8A134 /* HKScoreBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKScoreBoardViewController.h; sourceTree = "<group>"; };
+		0E3873851927F90B00A8A134 /* HKScoreBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKScoreBoardViewController.m; sourceTree = "<group>"; };
+		0E3873871927F91F00A8A134 /* HKScoreboardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKScoreboardCollectionViewCell.h; sourceTree = "<group>"; };
+		0E3873881927F91F00A8A134 /* HKScoreboardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKScoreboardCollectionViewCell.m; sourceTree = "<group>"; };
+		0E3873961927FC5000A8A134 /* HKCachedUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKCachedUser.h; sourceTree = "<group>"; };
+		0E3873971927FC5000A8A134 /* HKCachedUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKCachedUser.m; sourceTree = "<group>"; };
+		0E3873991927FC5100A8A134 /* HKCachedPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKCachedPhoto.h; sourceTree = "<group>"; };
+		0E38739A1927FC5100A8A134 /* HKCachedPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKCachedPhoto.m; sourceTree = "<group>"; };
+		0E3873A31928123100A8A134 /* HKPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKPhotoView.h; sourceTree = "<group>"; };
+		0E3873A41928123100A8A134 /* HKPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKPhotoView.m; sourceTree = "<group>"; };
+		0E3873A6192832E300A8A134 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0E3873AA19285B7900A8A134 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		0E3873AB19285B7900A8A134 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		0E9639F11927D0EB00DAA86D /* HKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKConstants.h; sourceTree = "<group>"; };
+		0E9639F31927D34100DAA86D /* CoreComponents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CoreComponents.xml; sourceTree = "<group>"; };
+		0E9639F41927D34100DAA86D /* ViewControllers.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ViewControllers.xml; sourceTree = "<group>"; };
+		0E9639FC1927D45F00DAA86D /* HotOrNotModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HotOrNotModel.xcdatamodel; sourceTree = "<group>"; };
+		0E9639FE1927D60000DAA86D /* HKConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKConstants.m; sourceTree = "<group>"; };
+		0E963A011927D85E00DAA86D /* HKInstagramDataSourceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKInstagramDataSourceProvider.h; sourceTree = "<group>"; };
+		0E963A021927D85E00DAA86D /* HKInstagramDataSourceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKInstagramDataSourceProvider.m; sourceTree = "<group>"; };
+		0E963A051927D94700DAA86D /* HKInstagramPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKInstagramPhoto.h; sourceTree = "<group>"; };
+		0E963A061927D94700DAA86D /* HKInstagramPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKInstagramPhoto.m; sourceTree = "<group>"; };
+		0E963A081927E27600DAA86D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0E963A0A1927E56000DAA86D /* HKInstagramUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKInstagramUser.h; sourceTree = "<group>"; };
+		0E963A0B1927E56000DAA86D /* HKInstagramUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKInstagramUser.m; sourceTree = "<group>"; };
+		0E963A111927E69C00DAA86D /* HKCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKCoreDataManager.h; sourceTree = "<group>"; };
+		0E963A121927E69C00DAA86D /* HKCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKCoreDataManager.m; sourceTree = "<group>"; };
 		0E97D6251927CDDA00994B52 /* HotOrNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotOrNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E97D6281927CDDA00994B52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0E97D62A1927CDDA00994B52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +90,6 @@
 		0E97D6361927CDDA00994B52 /* HotOrNot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotOrNot-Prefix.pch"; sourceTree = "<group>"; };
 		0E97D6371927CDDA00994B52 /* HKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKAppDelegate.h; sourceTree = "<group>"; };
 		0E97D6381927CDDA00994B52 /* HKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKAppDelegate.m; sourceTree = "<group>"; };
-		0E97D63B1927CDDA00994B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E97D63D1927CDDA00994B52 /* HKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKViewController.h; sourceTree = "<group>"; };
 		0E97D63E1927CDDA00994B52 /* HKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKViewController.m; sourceTree = "<group>"; };
 		0E97D6401927CDDA00994B52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +98,8 @@
 		0E97D64F1927CDDA00994B52 /* HotOrNotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotOrNotTests-Info.plist"; sourceTree = "<group>"; };
 		0E97D6511927CDDA00994B52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E97D6531927CDDA00994B52 /* HotOrNotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOrNotTests.m; sourceTree = "<group>"; };
+		69467C41BBFF460AA3D5E485 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		791B201F0A9649459DC1DD39 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +107,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3873A7192832E300A8A134 /* CoreData.framework in Frameworks */,
+				0E963A091927E27600DAA86D /* CoreLocation.framework in Frameworks */,
 				0E97D62B1927CDDA00994B52 /* CoreGraphics.framework in Frameworks */,
 				0E97D62D1927CDDA00994B52 /* UIKit.framework in Frameworks */,
 				0E97D6291927CDDA00994B52 /* Foundation.framework in Frameworks */,
+				2062F6329A044159BC8EE682 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +129,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E38737F1927F8D900A8A134 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				0E3873811927F8F100A8A134 /* HKRatingViewController.h */,
+				0E3873821927F8F100A8A134 /* HKRatingViewController.m */,
+				0E3873A31928123100A8A134 /* HKPhotoView.h */,
+				0E3873A41928123100A8A134 /* HKPhotoView.m */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
+		0E3873801927F8D900A8A134 /* Scoreboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E3873841927F90B00A8A134 /* HKScoreBoardViewController.h */,
+				0E3873851927F90B00A8A134 /* HKScoreBoardViewController.m */,
+				0E3873871927F91F00A8A134 /* HKScoreboardCollectionViewCell.h */,
+				0E3873881927F91F00A8A134 /* HKScoreboardCollectionViewCell.m */,
+			);
+			path = Scoreboard;
+			sourceTree = "<group>";
+		};
+		0E3873A819285B7900A8A134 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0E3873A919285B7900A8A134 /* Image effects */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0E3873A919285B7900A8A134 /* Image effects */ = {
+			isa = PBXGroup;
+			children = (
+				0E3873AA19285B7900A8A134 /* UIImage+ImageEffects.h */,
+				0E3873AB19285B7900A8A134 /* UIImage+ImageEffects.m */,
+			);
+			path = "Image effects";
+			sourceTree = "<group>";
+		};
+		0E9639F21927D34100DAA86D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0E9639F31927D34100DAA86D /* CoreComponents.xml */,
+				0E9639F41927D34100DAA86D /* ViewControllers.xml */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0E9639FA1927D45F00DAA86D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0E9639FB1927D45F00DAA86D /* HotOrNotModel.xcdatamodeld */,
+				0E3873991927FC5100A8A134 /* HKCachedPhoto.h */,
+				0E38739A1927FC5100A8A134 /* HKCachedPhoto.m */,
+				0E3873961927FC5000A8A134 /* HKCachedUser.h */,
+				0E3873971927FC5000A8A134 /* HKCachedUser.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0E963A001927D84D00DAA86D /* DataSourceProvider */ = {
+			isa = PBXGroup;
+			children = (
+				0E963A011927D85E00DAA86D /* HKInstagramDataSourceProvider.h */,
+				0E963A021927D85E00DAA86D /* HKInstagramDataSourceProvider.m */,
+			);
+			path = DataSourceProvider;
+			sourceTree = "<group>";
+		};
+		0E963A041927D8E700DAA86D /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				0E963A051927D94700DAA86D /* HKInstagramPhoto.h */,
+				0E963A061927D94700DAA86D /* HKInstagramPhoto.m */,
+				0E963A0A1927E56000DAA86D /* HKInstagramUser.h */,
+				0E963A0B1927E56000DAA86D /* HKInstagramUser.m */,
+			);
+			path = DataObjects;
+			sourceTree = "<group>";
+		};
+		0E963A101927E68D00DAA86D /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0E963A111927E69C00DAA86D /* HKCoreDataManager.h */,
+				0E963A121927E69C00DAA86D /* HKCoreDataManager.m */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
 		0E97D61C1927CDDA00994B52 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +225,7 @@
 				0E97D64D1927CDDA00994B52 /* HotOrNotTests */,
 				0E97D6271927CDDA00994B52 /* Frameworks */,
 				0E97D6261927CDDA00994B52 /* Products */,
+				791B201F0A9649459DC1DD39 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +241,13 @@
 		0E97D6271927CDDA00994B52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E3873A6192832E300A8A134 /* CoreData.framework */,
+				0E963A081927E27600DAA86D /* CoreLocation.framework */,
 				0E97D6281927CDDA00994B52 /* Foundation.framework */,
 				0E97D62A1927CDDA00994B52 /* CoreGraphics.framework */,
 				0E97D62C1927CDDA00994B52 /* UIKit.framework */,
 				0E97D6471927CDDA00994B52 /* XCTest.framework */,
+				69467C41BBFF460AA3D5E485 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,13 +255,22 @@
 		0E97D62E1927CDDA00994B52 /* HotOrNot */ = {
 			isa = PBXGroup;
 			children = (
+				0E3873A819285B7900A8A134 /* Utilities */,
+				0E38737F1927F8D900A8A134 /* Rating */,
+				0E3873801927F8D900A8A134 /* Scoreboard */,
+				0E963A101927E68D00DAA86D /* CoreDataManager */,
+				0E963A041927D8E700DAA86D /* DataObjects */,
+				0E963A001927D84D00DAA86D /* DataSourceProvider */,
+				0E9639FA1927D45F00DAA86D /* CoreData */,
+				0E9639F21927D34100DAA86D /* Assembly */,
 				0E97D6371927CDDA00994B52 /* HKAppDelegate.h */,
 				0E97D6381927CDDA00994B52 /* HKAppDelegate.m */,
-				0E97D63A1927CDDA00994B52 /* Main.storyboard */,
 				0E97D63D1927CDDA00994B52 /* HKViewController.h */,
 				0E97D63E1927CDDA00994B52 /* HKViewController.m */,
 				0E97D6401927CDDA00994B52 /* Images.xcassets */,
 				0E97D62F1927CDDA00994B52 /* Supporting Files */,
+				0E9639F11927D0EB00DAA86D /* HKConstants.h */,
+				0E9639FE1927D60000DAA86D /* HKConstants.m */,
 			);
 			path = HotOrNot;
 			sourceTree = "<group>";
@@ -159,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E97D6571927CDDA00994B52 /* Build configuration list for PBXNativeTarget "HotOrNot" */;
 			buildPhases = (
+				6680B93FECAB4F33A530E92F /* Check Pods Manifest.lock */,
 				0E97D6211927CDDA00994B52 /* Sources */,
 				0E97D6221927CDDA00994B52 /* Frameworks */,
 				0E97D6231927CDDA00994B52 /* Resources */,
+				FB5F2EA0CA4D49169EDF9007 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +354,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Henry T Kirk";
 				TargetAttributes = {
+					0E97D6241927CDDA00994B52 = {
+						DevelopmentTeam = 5E6MSK2UUE;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
 					0E97D6451927CDDA00994B52 = {
 						TestTargetID = 0E97D6241927CDDA00994B52;
 					};
@@ -229,9 +391,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9639F61927D34100DAA86D /* ViewControllers.xml in Resources */,
 				0E97D6411927CDDA00994B52 /* Images.xcassets in Resources */,
 				0E97D6331927CDDA00994B52 /* InfoPlist.strings in Resources */,
-				0E97D63C1927CDDA00994B52 /* Main.storyboard in Resources */,
+				0E9639F51927D34100DAA86D /* CoreComponents.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,14 +408,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6680B93FECAB4F33A530E92F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5F2EA0CA4D49169EDF9007 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E97D6211927CDDA00994B52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0E97D63F1927CDDA00994B52 /* HKViewController.m in Sources */,
+				0E963A131927E69C00DAA86D /* HKCoreDataManager.m in Sources */,
+				0E3873891927F91F00A8A134 /* HKScoreboardCollectionViewCell.m in Sources */,
+				0E3873861927F90B00A8A134 /* HKScoreBoardViewController.m in Sources */,
 				0E97D6351927CDDA00994B52 /* main.m in Sources */,
 				0E97D6391927CDDA00994B52 /* HKAppDelegate.m in Sources */,
+				0E963A071927D94700DAA86D /* HKInstagramPhoto.m in Sources */,
+				0E3873981927FC5000A8A134 /* HKCachedUser.m in Sources */,
+				0E3873831927F8F100A8A134 /* HKRatingViewController.m in Sources */,
+				0E963A0C1927E56000DAA86D /* HKInstagramUser.m in Sources */,
+				0E963A031927D85E00DAA86D /* HKInstagramDataSourceProvider.m in Sources */,
+				0E3873A51928123100A8A134 /* HKPhotoView.m in Sources */,
+				0E38739B1927FC5100A8A134 /* HKCachedPhoto.m in Sources */,
+				0E9639FF1927D60000DAA86D /* HKConstants.m in Sources */,
+				0E9639FD1927D45F00DAA86D /* HotOrNotModel.xcdatamodeld in Sources */,
+				0E3873AC19285B7900A8A134 /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +490,6 @@
 				0E97D6321927CDDA00994B52 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0E97D63A1927CDDA00994B52 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E97D63B1927CDDA00994B52 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		0E97D6501927CDDA00994B52 /* InfoPlist.strings */ = {
@@ -334,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -366,7 +567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -374,26 +575,36 @@
 		};
 		0E97D6581927CDDA00994B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791B201F0A9649459DC1DD39 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HotOrNot/HotOrNot-Prefix.pch";
 				INFOPLIST_FILE = "HotOrNot/HotOrNot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		0E97D6591927CDDA00994B52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791B201F0A9649459DC1DD39 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HotOrNot/HotOrNot-Prefix.pch";
 				INFOPLIST_FILE = "HotOrNot/HotOrNot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +668,7 @@
 				0E97D6591927CDDA00994B52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E97D65A1927CDDA00994B52 /* Build configuration list for PBXNativeTarget "HotOrNotTests" */ = {
 			isa = XCConfigurationList;
@@ -465,8 +677,22 @@
 				0E97D65C1927CDDA00994B52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0E9639FB1927D45F00DAA86D /* HotOrNotModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0E9639FC1927D45F00DAA86D /* HotOrNotModel.xcdatamodel */,
+			);
+			currentVersion = 0E9639FC1927D45F00DAA86D /* HotOrNotModel.xcdatamodel */;
+			path = HotOrNotModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0E97D61D1927CDDA00994B52 /* Project object */;
 }

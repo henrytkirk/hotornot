@@ -13,4 +13,16 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    // ios frameworks
+    #import <CoreLocation/CoreLocation.h>
+    #import <CoreData/CoreData.h>
+    // pods
+    #import <AFNetworking/AFNetworking.h>
+    #import <AFNetworking/UIImageView+AFNetworking.h>
+    #import <Typhoon/Typhoon.h>
+    // constants
+    #import "HKConstants.h"
+    // model
+    #import "HKInstagramUser.h"
+    #import "HKInstagramPhoto.h"
 #endif

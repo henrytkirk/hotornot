@@ -7,12 +7,37 @@
 //
 
 #import "HKAppDelegate.h"
+#import "HKViewController.h"
+
+@interface HKAppDelegate ()
+
+/**
+ * Root view controller with menu.
+ */
+@property (nonatomic, strong) HKViewController *rootViewController;
+
+/**
+ * Loads Typhoon assemblies
+ */
+- (void)loadTyphoonFactory;
+
+@end
 
 @implementation HKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    // Load Typhoon Assemblies
+    [self loadTyphoonFactory];
+
+    // Create window and add root view to it
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.rootViewController = [[HKViewController alloc] init];
+    self.rootViewController.view.frame = self.window.bounds;
+    self.window.rootViewController = self.rootViewController;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 							
@@ -41,6 +66,18 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    
+    // save any unsaved coredata entries
+    [[NSNotificationCenter defaultCenter] postNotificationName:ApplicationWillTerminateNotification object:nil];
+}
+
+#pragma mark - Typhoon Methods
+
+- (void)loadTyphoonFactory {
+    
+    TyphoonComponentFactory* factory = ([[TyphoonXmlComponentFactory alloc] initWithConfigFileNames:@"CoreComponents.xml", @"ViewControllers.xml", nil]);
+    
+    [factory makeDefault];
 }
 
 @end

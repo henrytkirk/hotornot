@@ -1,0 +1,14 @@
+<assembly xmlns="http://www.typhoonframework.org/schema/assembly"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.typhoonframework.org/schema/assembly
+    http://www.typhoonframework.org/schema/assembly.xsd">
+
+    <!-- CoreData Manager -->
+    <component key="coreDataManager" class="HKCoreDataManager" scope="singleton">
+    </component>
+
+    <!-- Instagram DatasourceProvider -->
+    <component key="dataSourceProvider" class="HKInstagramDataSourceProvider" scope="singleton">
+    </component>
+
+</assembly>

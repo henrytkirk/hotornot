@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="HKPhoto" representedClassName="HKCachedPhoto" syncable="YES">
+        <attribute name="locationLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="locationLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="photoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="standardResolutionImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HKUser" inverseName="photos" inverseEntity="HKUser" syncable="YES"/>
+    </entity>
+    <entity name="HKUser" representedClassName="HKCachedUser" syncable="YES">
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hotVotes" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="notVotes" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userProfileImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HKPhoto" inverseName="user" inverseEntity="HKPhoto" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="HKPhoto" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="HKUser" positionX="-54" positionY="63" width="128" height="148"/>
+    </elements>
+</model>

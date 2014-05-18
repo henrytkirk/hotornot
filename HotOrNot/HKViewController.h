@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ * Displays menu to user so they can rate or view prior ratings
+ */
 @interface HKViewController : UIViewController
 
 @end

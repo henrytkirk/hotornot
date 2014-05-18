@@ -1,0 +1,17 @@
+<assembly xmlns="http://www.typhoonframework.org/schema/assembly"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.typhoonframework.org/schema/assembly
+    http://www.typhoonframework.org/schema/assembly.xsd">
+
+    <!-- Rating Controller -->
+    <component class="HKRatingViewController" key="ratingViewController" scope="prototype">
+        <property name="coreDataManager" ref="coreDataManager"/>
+        <property name="dataSourceProvider" ref="dataSourceProvider"/>
+    </component>
+
+    <!-- ScoreBoard Controller -->
+    <component class="HKScoreBoardViewController" key="scoreboardViewController" scope="prototype">
+        <property name="coreDataManager" ref="coreDataManager"/>
+    </component>
+
+</assembly>

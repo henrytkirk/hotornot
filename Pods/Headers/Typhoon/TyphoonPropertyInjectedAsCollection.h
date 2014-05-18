@@ -1,0 +1,1 @@
+../../Typhoon/Source/Definition/Properties/TyphoonPropertyInjectedAsCollection.h
